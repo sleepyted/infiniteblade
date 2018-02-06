@@ -1,0 +1,6 @@
+extends layout
+block content
+    form(method='POST',enctype='multipart/form-data',action='/fs/upload')
+        input(type='file',name='attachment')
+        input(type='text',name='msg')
+        input(type='submit')

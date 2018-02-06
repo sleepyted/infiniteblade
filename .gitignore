@@ -42,3 +42,6 @@ typings/
 .env
 # next.js build output
 .next
+
+# upload files
+uploads/
